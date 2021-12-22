@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="myDate.js"></script>
+</head>
+<body>
+<script>
+    let date = new Date(20, 12, 2012);
+    let day = date.getDay();
+    let month = date.getMonth();
+    let year = date.getYear();
+    date.setDay(20);
+    let day1 =date.getDay();
+    date.setMonth(12)
+    let month1=date.getMonth()
+    date.setYear(2012)
+    let year1=date.getYear();
+    alert(day + "/" + month + "/" + year);
+</script>
+</body>
+</html>
